@@ -2,6 +2,21 @@ from __future__ import print_function
 
 import time
 from sr.robot import *
+"""
+Assignment 1 python script
+
+
+1- retrieve the distance and the angle of the closest token and that isn't grabbed. If no token is detected, the robot should rotate in order to find a token.
+2- drive the robot towards the marker and grab it
+3- when the robot grap a token then retrieve the distance and the angle of the base token. If no base token is detected, the robot should rotate in order to find a token.
+4- drive the robot towards the base token and release it
+5- start again from 1
+
+
+	When done, run with:
+	$ python2 run.py assignment.py
+
+"""
 
 a_th = 2.0
 """ float: Threshold for the control of the linear distance"""
