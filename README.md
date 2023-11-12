@@ -107,3 +107,6 @@ while true:
 	else if the robot inclined on the right side:
 		tun left
 ```
+Further improvement 
+---------
+This task entails the robot initially choosing a box, grasping it, and subsequently collecting the remaining boxes before releasing them in the vicinity. As part of the enhancement, the robot is now tasked with autonomously identifying a specific point within the workspace. Once this designated point is located, the robot is instructed to select a box, securely grasp it, and systematically place it down at the identified point in an organized manner. This refinement in the robot's behavior aims to enhance its precision and contribute to a more methodical execution of tasks within the workspace.
