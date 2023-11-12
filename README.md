@@ -1,16 +1,18 @@
-Python Robotics Simulator
+Assignment_1 Python Robotics Simulator
 ================================
 
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
-Some of the arenas and the exercises have been modified for the Research Track I course
+The Research Track I course has seen modifications in certain arenas and assignments. In this particular assignment, the task involves creating a Python node to control a robot, directing it to gather all the golden boxes. The objective is to develop code that consolidates all collected boxes onto a single base box. The assignment code incorporates functions and a while loop to fulfill this specific requirement
 
 Installing and running
 ----------------------
 
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
-Once the dependencies are installed, simply run the `test.py` script to test out the simulator.
-
+After setup those requirement you can run the program with:
+```python
+python2 run.py assignment.py
+```
 
 Robot API
 ---------
