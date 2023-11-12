@@ -82,7 +82,7 @@ Pseudocode
 Creating pseudocode proves to be a convenient and effective step in preparing for the subsequent coding tasks in this assignment. Below, you'll find the provided pseudocode to facilitate the coding process.
 ```python
 while true:
-	if robot want to grap:
+	if robot want to grab:
 		find tokens distance rotation and code
 	else:
 		find base token distance rotation and code
@@ -91,15 +91,15 @@ while true:
 			exit the program
 		else:
 			turn round search it 
-	else if dist< the threshold of grap and robot want to grap:
-		grap token
+	else if dist< the threshold of grab and robot want to grab:
+		grab token
 		save the token code on the list
-		robot don't want to grap
-	else if dist< the threshold of release and robot don't want to grap:
+		robot don't want to grab
+	else if dist< the threshold of release and robot don't want to grab:
 		release token
 		count the of token released
 		save the token code on the list
-		robot want to grap
+		robot want to grab
 	else if robot well aligned:
 		go straight
 	else if the robot inclined on the left side:
