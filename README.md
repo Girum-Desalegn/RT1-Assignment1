@@ -75,5 +75,35 @@ for m in markers:
     elif m.info.marker_type == MARKER_ARENA:
         print " - Arena marker {0} is {1} metres away".format( m.info.offset, m.dist )
 ```
-
 [sr-api]: https://studentrobotics.org/docs/programming/sr/
+
+Pseudocode
+---------
+Creating pseudocode proves to be a convenient and effective step in preparing for the subsequent coding tasks in this assignment. Below, you'll find the provided pseudocode to facilitate the coding process.
+```python
+while true:
+	if robot want to grap:
+		find tokens distance rotation and code
+	else:
+		find base token distance rotation and code
+	if no token detected:
+		if all token released:
+			exit the program
+		else:
+			turn round search it 
+	else if dist< the threshold of grap and robot want to grap:
+		grap token
+		save the token code on the list
+		robot don't want to grap
+	else if dist< the threshold of release and robot don't want to grap:
+		release token
+		count the of token released
+		save the token code on the list
+		robot want to grap
+	else if robot well aligned:
+		go straight
+	else if the robot inclined on the left side:
+		tun right
+	else if the robot inclined on the right side:
+		tun left
+```
